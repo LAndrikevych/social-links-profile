@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+  font-family: Inter, ;
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
