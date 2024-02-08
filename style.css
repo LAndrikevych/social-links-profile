@@ -26,7 +26,6 @@ footer a:hover {
 }
 
 @media screen and (min-width: 1440px) {
-  
 }
 
 body {
@@ -62,7 +61,6 @@ img {
   margin-bottom: 20px;
 }
 
-
 .info {
   margin-bottom: 20px;
 }
@@ -88,15 +86,24 @@ img {
   margin-bottom: 0;
 }
 
-.link:hover, .link:active {
+.link:hover,
+.link:active {
   background-color: hsl(75, 94%, 57%);
 }
 
-.link>a {
+.link > a {
   display: block;
   width: 100%;
 }
 
-.link>a:hover {
+.link > a:hover {
   color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
