@@ -25,13 +25,6 @@ p {
   font-weight: 200;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
-@media screen and (min-width: 1440px) {
-}
-
 body {
   min-height: 100vh;
   align-items: center;
@@ -119,4 +112,8 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
