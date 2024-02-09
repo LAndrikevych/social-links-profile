@@ -21,6 +21,10 @@ a {
   font-family: Inter;
 }
 
+p {
+  font-weight: 200;
+}
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -29,6 +33,11 @@ footer a:hover {
 }
 
 body {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: hsl(0, 0%, 8%);
 }
 
@@ -37,48 +46,49 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 350px;
+  width: 385px;
+  height: 610px;
   background-color: hsl(0, 0%, 12%);
-  gap: 10px;
-  margin: 50px auto;
-  padding: 30px;
+  padding: 40px;
   border-radius: 10px;
 }
 
 img {
   border-radius: 50%;
-  width: 30%;
-  margin-bottom: 20px;
+  width: 29%;
+  margin-bottom: 15px;
 }
 
 .name {
+  font-size: 24px;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .city {
   font-weight: 600;
   color: hsl(75, 94%, 57%);
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .info {
-  margin-bottom: 20px;
+  margin-bottom: 23px;
+  letter-spacing: 0.15px;
 }
 
 .links-list {
   list-style: none;
-  margin: 0;
   padding: 0;
   width: 100%;
 }
 
 .link {
-  height: 50px;
+  height: 47px;
   background-color: hsl(0, 0%, 20%);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
   text-align: center;
-  line-height: 50px;
+  line-height: 47px;
   font-weight: 600;
 }
 
@@ -101,8 +111,11 @@ img {
 }
 
 .attribution {
+  position: fixed;
+  bottom: 10px;
   font-size: 11px;
   text-align: center;
+  margin: 0 auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
